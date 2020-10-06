@@ -1,4 +1,5 @@
 import express from 'express';
+require('dotenv').config();
 import routes from './routes';
 import helmet from 'helmet';
 
