@@ -44,7 +44,8 @@ this application is deployed on Heroku with Github automatic deploy
 Edit .env file and run
 
 1. yarn install
-2. yarn dev
+2. npx sequelize-cli db:migrate
+3. yarn dev
 
 
 </div>
