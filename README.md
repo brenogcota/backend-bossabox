@@ -9,6 +9,7 @@
 
 #### VUTTR (Very Useful Tools to Remember), A fast and effective API developed in express. The application is a simple repository for managing tools with their names, links, descriptions and tags. view [Swagger Documentation](https://app.swaggerhub.com/apis/b2584/vuttr-api/1.0.0)
 
+#### [Open app](https://api-bossabox-vuttr.herokuapp.com/)
 <br><br><hr>
 
 #### Dependencies
