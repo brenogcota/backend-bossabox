@@ -1,9 +1,13 @@
 <div style="color: #000; background: #eee; padding: 20px;">
 <center>
 
-# VUTTR API :zap: :hammer:
+<h1 align="center">
+VUTTR API :zap: :hammer:
+</h1>
 
+<p align="center">
 <img width="300" alt="expressjs" src="https://user-images.githubusercontent.com/46490801/95209252-8ae04180-07c0-11eb-8dc0-92f45c0a8bff.png">
+</p>
 
 </center>
 
