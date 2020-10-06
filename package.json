@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sucrase-node src/server.js",
     "dev": "nodemon src/server.js"
   },
   "author": "",
@@ -18,10 +19,10 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.7",
     "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.13.0",
     "yup": "^0.28.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3",
-    "sucrase": "^3.13.0"
+    "nodemon": "^2.0.3"
   }
 }
