@@ -20,21 +20,30 @@
 * JWT
 * Yup
 * Helmet
+* sucrase
+* dotenv
 
 #### Development tools used
 * Nodemon 
-* sucrase
 * Postbird
 * Postman
 
 <br>
 
+#### Deployed on Heroku
+
+this application is deployed on Heroku with Github automatic deploy
+
+> https://api-bossabox-vuttr.herokuapp.com/
+
+
+<br>
+
 #### Installation and run application
-Edit src/config/database.js and run
+Edit .env file and run
 
 1. yarn install
-2. npx sequelize db:migrate
-2. yarn dev 
+2. yarn dev
 
 
 </div>
