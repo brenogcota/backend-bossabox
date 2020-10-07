@@ -16,7 +16,7 @@ routes.get('/tools', _ToolsController2.default.index);
 routes.post('/tools', _ToolsController2.default.store);
 routes.get('/tools/:id', _ToolsController2.default.show);
 routes.put('/tools/:id', _ToolsController2.default.update);
-routes.delete('/tools:id', _ToolsController2.default.destroy);
+routes.delete('/tools/:id', _ToolsController2.default.destroy);
 
 routes.post('/users', _UserController2.default.store);
 routes.post('/sessions', _SessionController2.default.store);
