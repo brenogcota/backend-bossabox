@@ -19,12 +19,12 @@ class ToolsController {
                     }
                 });
 
-                return res.json(tools);
+                return res.status(200).json(tools);
 
             } else {
                 const tools = await Tools.findAll();
     
-                return res.json(tools);
+                return res.status(200).json(tools);
 
             }
 
@@ -108,7 +108,7 @@ class ToolsController {
 
             const {id, title, description, link, tags } = await tool.update(req.body);
 
-            return res.json({
+            return res.status(200).json({
                 id,
                 description,
                 title,

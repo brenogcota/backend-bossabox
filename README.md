@@ -30,6 +30,8 @@ VUTTR API :zap: :hammer:
 
 #### Development tools used :hammer:
 * Nodemon 
+* Jest
+* Supertest
 * Postbird
 * Postman
 
@@ -49,7 +51,14 @@ Edit .env file and run
 
 1. yarn install
 2. npx sequelize-cli db:migrate
-3. yarn dev
+3. npx sequelize-cli db:seed:all
+4. yarn dev
+
+<br>
+
+#### Run tests :heavy_check_mark:
+
+> yarn test
 
 
 </div>
