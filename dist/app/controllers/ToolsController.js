@@ -79,7 +79,7 @@ class ToolsController {
                 return res.status(404).json({ message: "Tool not found!"});
             }
 
-            return res.status(201).json(tool);
+            return res.status(200).json(tool);
 
         } catch (err) {
             return res.status(500).json({ message: "An error ocurred"});
@@ -108,7 +108,7 @@ class ToolsController {
 
             const {id, title, description, link, tags } = await tool.update(req.body);
 
-            return res.status(201).json({
+            return res.json({
                 id,
                 description,
                 title,
