@@ -25,11 +25,11 @@ VUTTR API :zap: :hammer:
 * JWT
 * Yup
 * Helmet
-* sucrase
 * dotenv
 
 #### Development tools used :hammer:
 * Nodemon 
+* sucrase
 * Jest
 * Supertest
 * Postbird
